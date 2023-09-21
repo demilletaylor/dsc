@@ -1,10 +1,14 @@
 body{
-    background-color: #4d2210;
+    background-image:radial-gradient(#006978,#0EB4CB);
     font-family: 'Space Grotesk', sans-serif;    
     color: white;
 }
-
-    
+nav{
+    text-transform: uppercase;
+}
+em{background-color: darkorchid;
+    padding-inline: 30px;
+   } 
     button {
         font-family: 'Space Mono', monospace;        
         background-color:#0a0a23;
@@ -16,4 +20,4 @@ body{
     }
 a {
     color:#ffd037;
-}
+   } 

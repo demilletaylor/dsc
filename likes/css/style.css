@@ -4,8 +4,26 @@ body{
     font-size:large;
     text-transform: uppercase;
     color: white;
-=}
+    align-items: center;
+}
+h1, h2{
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}  
+.column img {
 
+    justify-content: space-around;
+    vertical-align: middle;
+    width: 25%;
+    height: 25%;
+
+
+  }
+  
     button {  
         font-family: 'Space Mono', monospace;        
         background-color:#0a0a23;
@@ -16,6 +34,16 @@ body{
         margin: 20px;
     }
     
+   em{background-color: darkorchid;
+    padding-inline: 30px;
+   } 
 a {
     color:#ffd037;
+}
+body {
+background-image:url("/img/7270362.gif");
+background-size:cover;
+}
+nav {
+text-align: left;
 }
