@@ -1,27 +1,30 @@
 body{
+    font-family: 'Space Grotesk';
     background-image:radial-gradient(#A577E5, #3C0091);
-    font-family: 'Space Grotesk', sans-serif;       
-    font-size:large;
     color: white;
     align-items: center;
-}
-    
-p{
     margin-left: 100px;
     margin-right: 100px;
-    line-height: 2;
 }
-h1, h2 {
+   
+p{
+    line-height: 2;
+    font-size: 16px;
+}
+h1 {
     text-align: center;
     text-transform: uppercase;
+    font-size: 40px
 }
 nav{
+    font-family: 'Space Grotesk';
     text-transform: uppercase;
+    font-size: 20px;
 }
-image "/img/"{
-    float:left;
-    padding: 100px;
-    }
+:focus-visible {
+    background-color: darkorchid;
+   } 
+
     p {
         text-wrap:stable;
     }

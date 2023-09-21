@@ -2,9 +2,19 @@ body{
     background-image:radial-gradient(#006978,#0EB4CB);
     font-family: 'Space Grotesk', sans-serif;    
     color: white;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+:focus-visible {
+    background-color: darkorchid;
+   } 
 nav{
     text-transform: uppercase;
+    font-size: 20px;
 }
 em{background-color: darkorchid;
     padding-inline: 30px;
@@ -21,3 +31,4 @@ em{background-color: darkorchid;
 a {
     color:#ffd037;
    } 
+   
