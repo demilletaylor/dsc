@@ -1,16 +1,13 @@
 body{ 
     font-family: 'Space Grotesk', sans-serif;       
     font-size: xxx-large;
-    background-color: #030345;
+    background-image:linear-gradient(#FC9BFF,#A89BFF);
+    background-size: 100%;
     color: white;
 }
 
     button {
         font-family: 'Space Mono', sans-serif;
-        background-color:#733832;
         font-size: x-large;
         padding: 10px
     }
-a {
-    color:#ffd037;
-}
