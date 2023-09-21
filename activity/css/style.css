@@ -11,7 +11,7 @@ h1{
 }
 :focus-visible {
     background-color: darkorchid;
-   } 
+}
 nav{
     text-transform: uppercase;
     font-size: 20px;
