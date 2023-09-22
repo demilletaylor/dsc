@@ -1,6 +1,7 @@
 body{
     font-family: 'Space Grotesk', sans-serif;       
     font-size:large;
+    background-image:url("../img/7270362.gif");
     text-transform: uppercase;
     color: white;
     align-items: center;
@@ -9,9 +10,6 @@ body{
     margin-right: 100px;
     cursor:url(../css/lion.cur), auto;
 }
- html{
-    background-image:url("../img/7270362.gif")
- }
 .column img {
     justify-content: space-around;
     vertical-align: middle;
@@ -23,7 +21,6 @@ img:hover {
     padding: 10px;
     transition: all 0.5s;
 }
-
 
  h1, h2 {
         text-align: center;
