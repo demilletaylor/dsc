@@ -4,13 +4,14 @@ body{
     text-transform: uppercase;
     color: white;
     align-items: center;
-    background-image:url("/img/7270362.gif");
     background-size:cover;
     margin-left: 100px;
     margin-right: 100px;
     cursor:url(../css/lion.cur), auto;
 }
- 
+ html{
+    background-image:url("../img/7270362.gif")
+ }
 .column img {
     justify-content: space-around;
     vertical-align: middle;
