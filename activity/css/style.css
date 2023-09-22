@@ -1,10 +1,12 @@
 body{
-    background-image:radial-gradient(rgb(98, 194, 194),#1354ce);
     font-family: 'Space Grotesk', sans-serif;    
     color: white;
     margin-left: 100px;
     margin-right: 100px;
     cursor:url(../css/lion.cur), auto;
+}
+html{
+    background-image:radial-gradient(rgb(98, 194, 194),#1354ce);
 }
 h1{
     font-size: 40px;
@@ -44,3 +46,18 @@ a {
     width: 25%;
     height: 25%;
    }
+
+   button, a:hover{
+    cursor:url(../css/lion.cur), auto;
+  }
+  .column img {
+    justify-content: space-around;
+    vertical-align: middle;
+    width: 25%;
+    height: 25%;
+}
+img:hover {
+    background-color: darkorchid;
+    padding: 10px;
+    transition: all 0.5s;
+}

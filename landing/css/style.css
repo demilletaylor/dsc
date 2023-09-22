@@ -1,19 +1,29 @@
 body{
     font-family: 'Space Grotesk';
-    background-image:radial-gradient(#A577E5, #3C0091);
     color: white;
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
     cursor:url(../css/lion.cur), auto;
 }
-   
-p{
-    line-height: 2;
-    font-size: 16px;
+
+html{
+    background-image:radial-gradient(#A577E5, #3C0091)
 }
+.column{
+    float: left;
+    margin-right: 100px;
+   }
+ p {
+    margin-left: 100px;
+    width: 40em;                
+    word-wrap: break-word;      
+    font-size: 20px
+    line-height: 2;
+    text-align: right;
+  }
 h1 {
-    text-align: center;
+    text-align:center;
     text-transform: uppercase;
     font-size: 40px
 }
@@ -25,10 +35,10 @@ nav{
 :focus-visible {
     background-color: darkorchid;
    } 
+   
+   
 
-    p {
-        text-wrap:stable;
-    }
+    
         button {
             font-family: 'Space Mono', sans-serif;
             background-color:#3C0091;
@@ -43,4 +53,7 @@ nav{
     }
     button, a:hover{
         cursor:url(../css/lion.cur), auto;
+      }
+      footer{
+        margin-top: 100px;
       }

@@ -1,13 +1,17 @@
 body{ 
     font-family: 'Space Grotesk', sans-serif;       
-    font-size: xxx-large;
-    background-image:radial-gradient(#ff96ed,#A89BFF);
-    background-size:contain;
+    font-size: 60px;
+    background: url(img/leosign.gif);
+    background-size:100px;
+    background-position: center;
     align-items: center;
     color: white;
     cursor:url(../css/lion.cur), auto;
-    margin-left: 100px;
-    margin-right: 100px;
+}
+
+html{
+    margin-top: 0%;
+    background-image:radial-gradient(#eb67f1,#cf9cff);
 }
     button {
         font-family: 'Space Mono', sans-serif;
@@ -21,6 +25,4 @@ body{
       a {
         color:#ffd037;
        } 
-      image{
-       
-      }
+    
