@@ -1,8 +1,8 @@
 body{ 
     font-family: 'Space Grotesk', sans-serif;       
     font-size: xxx-large;
-    background-image:radial-gradient(#FC9BFF,#A89BFF);
-    background-size: cover;
+    background-image:radial-gradient(#ff96ed,#A89BFF);
+    background-size:contain;
     color: white;
 }
 
