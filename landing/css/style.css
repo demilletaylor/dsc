@@ -5,6 +5,7 @@ body{
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    cursor:url(../css/lion.cur), auto;
 }
    
 p{
@@ -40,3 +41,6 @@ nav{
     a {
         color:#ffd037;
     }
+    button, a:hover{
+        cursor:url(../css/lion.cur), auto;
+      }

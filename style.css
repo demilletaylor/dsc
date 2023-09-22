@@ -3,11 +3,24 @@ body{
     font-size: xxx-large;
     background-image:radial-gradient(#ff96ed,#A89BFF);
     background-size:contain;
+    align-items: center;
     color: white;
+    cursor:url(../css/lion.cur), auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-
     button {
         font-family: 'Space Mono', sans-serif;
         font-size: x-large;
-        padding: 10px
+        padding-inline: 30px;
+        background-color:darkorchid;
     }
+    button, a:hover {
+        cursor:url(../css/lion.cur), auto;
+      }
+      a {
+        color:#ffd037;
+       } 
+      image{
+       
+      }
