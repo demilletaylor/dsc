@@ -4,7 +4,7 @@ body{
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
-    cursor:url(../css/lion.cur), auto;
+    cursor:url("../css/lion.cur"), auto;
 }
 
 html{
@@ -15,9 +15,8 @@ html{
     margin-right: 100px;
    }
  .p {
-    margin-left: 100px;
-    width: 40em;                
-    word-wrap: break-word;      
+    margin-left: 100px; 
+    display: flex;                  
     font-size: 20px;
     line-height: 2;
     text-align: right;
@@ -53,8 +52,5 @@ nav{
     }
     button, a:hover{
         cursor:url(../css/lion.cur), auto;
-      }
-
-    footer {
-        margin-top: 100px;
-      }
+    }
+    
