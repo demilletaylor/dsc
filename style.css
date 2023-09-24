@@ -1,15 +1,16 @@
 body{ 
     font-family: 'Space Grotesk', sans-serif;       
     font-size: 60px;
+    background: url("img/leosign.gif");
+    background-repeat: repeat-x;
+    background-size: 500px ;
+    background-position: center;
     align-items: center;
     color: white;
     cursor:url(../css/lion.cur), auto;
 }
 section{
-    background: url("img/leosign.gif");
-    background-repeat: repeat;
-    background-size: 80px ;
-    background-position: center;
+   
 }
 
 html{
