@@ -1,8 +1,6 @@
 body{
     font-family: 'Space Grotesk', sans-serif;    
     color: white;
-    margin-left: 100px;
-    margin-right: 100px;
     cursor:url(../css/lion.cur), auto;
 }
 article {
@@ -30,6 +28,12 @@ video{
 nav{
     text-transform: uppercase;
     font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 em{background-color: darkorchid;
     padding-inline: 30px;

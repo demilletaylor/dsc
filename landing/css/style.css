@@ -1,19 +1,23 @@
 body{
     font-family: 'Space Grotesk';
+    background-image: url("../img/stars.gif");
+    background-position: center;
+    background-repeat: repeat;
     color: white;
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
     cursor:url("../css/lion.cur"), auto;
 }
-
 html{
-    background-image:radial-gradient(#A577E5, #3C0091);
+    background-image:radial-gradient(#3e0490, #000000);
 }
-.column{
-    float: left;
-    margin-right: 100px;
-   }
+column{
+    justify-content: space-around;
+    vertical-align: left;
+    width: 25%;
+    height: 25%;
+}
  .p {
     margin-left: 100px; 
     display: flex;                  
@@ -52,4 +56,46 @@ nav{
     button, a:hover{
         cursor:url(../css/lion.cur), auto;
     }
-    
+    .container {
+        position: relative;
+        width: 50%;
+        display: inline-block;
+        
+      }
+      
+      .image {
+        display: inline-block;
+        margin-inline-end: 20px;
+        width: 270px;
+        height: 300px;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 290px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #ca0184;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: white;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }

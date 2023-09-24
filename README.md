@@ -5,4 +5,7 @@
 # technical overview 
     Currently, I would say this site is 75% done. I’d like to add more interactive features and add to my CSS styling. The best text and content is made with HTML (heading + paragraph styles, links, buttons, img height & width, header and footer). All of the styling is done with CSS (colors, photo placement & alignment, font styles, sizing & formatting). 
 # acknowledgments
-    code source
+   Lion Cursor: http://www.rw-designer.com/cursor-detail/163421
+   Hover Overlay: https://www.w3schools.com/howto/howto_css_image_overlay.asp
+   Sunset GIF: https://www.reddit.com/r/vaporwaveasthetics/comments/8dicqe/a_sunset_gif_i_made_1920x1080p/
+   Stars GIF: https://giphy.com/stickers/stars-galaxy-myedit-NzSUEgbTWB7TW
