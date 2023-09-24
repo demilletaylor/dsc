@@ -17,8 +17,8 @@ body{
     height: 25%;
 }
 img:hover {
-    background-color: yellow;
-    padding: 10px;
+    background-color: #ffd037;
+    padding: 20px;
     transition: all 0.5s;
 }
 
@@ -34,13 +34,12 @@ img:hover {
     }
   
     button {  
-        font-family: 'Space Mono', monospace;        
-        background-color:#0a0a23;
+        font-family: 'Space Mono', sans-serif;        
+        background-color:#ca0184;
         font-size: x-large;
         text-transform: uppercase;
         text-decoration-style: none;
-        padding: 20px;
-        margin: 20px;
+        padding: 20px 50px 20px 50px;
     }
     
     nav{

@@ -5,8 +5,14 @@ body{
     margin-right: 100px;
     cursor:url(../css/lion.cur), auto;
 }
+article {
+    background-image: url("../../img/leosign.gif");
+    background-repeat:round;
+    background-size: 85px;
+    background-position: center;
+}
 html{
-    background-image:radial-gradient(rgb(98, 194, 194),#1354ce);
+    background-image:radial-gradient(rgb(148, 83, 3),#462600);
 }
 h1{
     font-size: 40px;
@@ -29,13 +35,12 @@ em{background-color: darkorchid;
     padding-inline: 30px;
    } 
     button {
-        font-family: 'Space Mono', monospace;        
-        background-color:#0a0a23;
+        font-family: 'Space Mono', sans-serif;        
+        background-color:#56029b;
         font-size: x-large;
         text-transform: uppercase;
         text-decoration-style: none;
-        padding: 20px;
-        margin: 20px;
+        padding: 20px 50px 20px 50px;
     }
 a {
     color:#ffd037;
@@ -50,14 +55,9 @@ a {
    button, a:hover{
     cursor:url(../css/lion.cur), auto;
   }
-  .column img {
-    justify-content: space-around;
-    vertical-align: middle;
-    width: 25%;
-    height: 25%;
-}
+  
 img:hover {
-    background-color: darkorchid;
-    padding: 10px;
+    background-color: #ffd037;
+    padding: 20px;
     transition: all 0.5s;
 }
