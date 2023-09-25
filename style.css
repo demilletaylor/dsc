@@ -3,16 +3,18 @@ body{
     font-size: 60px;
     background: url("img/leosign.gif");
     background-repeat: repeat-x;
-    background-size: 500px ;
+    background-size: 700px;
     background-position: center;
     align-items: center;
     color: white;
     cursor:url(../css/lion.cur), auto;
 }
-section{
-   
-}
 
+.img{
+    align-content: center;
+    size: 400px;
+
+}
 html{
     background-image:radial-gradient(#eb67f1,#cf9cff);
     background-size:cover;
@@ -30,4 +32,6 @@ button, a:hover {
     a {
         color:#ffd037;
        } 
+
+       
      

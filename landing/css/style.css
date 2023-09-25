@@ -12,15 +12,17 @@ body{
 html{
     background-image:radial-gradient(#3e0490, #000000);
 }
-column{
+
+.column img{
     justify-content: space-around;
     vertical-align: left;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
 }
+
  .p {
     margin-left: 100px; 
-    display: flex;                  
+text-wrap:wrap;                 
     font-size: 20px;
     line-height: 2;
     text-align: right;
@@ -60,7 +62,6 @@ nav{
         position: relative;
         width: 50%;
         display: inline-block;
-        
       }
       
       .image {
@@ -99,3 +100,9 @@ nav{
         transform: translate(-50%, -50%);
         text-align: center;
       }
+      
+    .footer, .a:hover {
+        background-color: #ffd037;
+        padding: 20px;
+        transition: all 0.5s;
+    }
