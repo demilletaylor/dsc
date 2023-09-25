@@ -7,13 +7,11 @@ body{
     background-position: center;
     align-items: center;
     color: white;
-    cursor:url(../css/lion.cur), auto;
+    cursor:url("css/lion.cur"), auto;
 }
 
 .img{
-    align-content: center;
     size: 400px;
-
 }
 html{
     background-image:radial-gradient(#eb67f1,#cf9cff);
@@ -27,7 +25,7 @@ html{
     }
    
 button, a:hover {
-        cursor:url(../css/lion.cur), auto;
+        cursor:url("css/lion.cur"), auto;
       }
     a {
         color:#ffd037;
