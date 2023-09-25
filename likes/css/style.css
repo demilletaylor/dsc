@@ -4,11 +4,9 @@ body{
     text-transform: uppercase;
     color: white;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
     cursor:url(../css/lion.cur), auto;
 }
-section{
+article{
     background-image: url("../img/pinkglitter.gif");
     background-repeat: repeat;
     background-size:200px;
@@ -55,6 +53,8 @@ img:hover {
         text-transform: uppercase;
         font-size: 20px;
         text-align: left;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     em{background-color: darkorchid;
         padding-inline: 30px;

@@ -1,13 +1,13 @@
 body{
     font-family: 'Space Grotesk';
+    color: white;
+    align-items: center;
+    cursor:url("../css/lion.cur"), auto;
+}
+section {
     background-image: url("../img/stars.gif");
     background-position: center;
     background-repeat: repeat;
-    color: white;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    cursor:url("../css/lion.cur"), auto;
 }
 html{
     background-image:radial-gradient(#3e0490, #000000);
@@ -19,13 +19,12 @@ html{
     height: 20%;
 }
 
- .p {
-    display: flex;
-        flex-wrap: wrap;
-    margin-left: 100px;               
+ .p {               
     font-size: 20px;
     line-height: 2;
     text-align: right;
+    margin-left: 100px;
+    margin-right: 100px;
  }
 h1 {
     text-align:center;
@@ -36,6 +35,8 @@ nav{
     font-family: 'Space Grotesk';
     text-transform: uppercase;
     font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 :focus-visible {
     background-color: darkorchid;
