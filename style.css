@@ -16,6 +16,7 @@ body{
 html{
     background-image:radial-gradient(#eb67f1,#cf9cff);
     background-size:cover;
+    background-repeat: no-repeat;
 }
  button {
         font-family: 'Space Mono', sans-serif;

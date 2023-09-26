@@ -3,7 +3,6 @@ body{
     font-size:large;
     text-transform: uppercase;
     color: white;
-    align-items: center;
     cursor:url(../css/lion.cur), auto;
 }
 article{
@@ -55,6 +54,9 @@ img:hover {
         text-align: left;
         margin-left: 100px;
         margin-right: 100px;
+        background-image: url("/img/leosign.gif");
+    background-size: 30px;
+    background-repeat: repeat-x;
     }
     em{background-color: darkorchid;
         padding-inline: 30px;
