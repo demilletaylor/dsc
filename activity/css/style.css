@@ -17,9 +17,7 @@ h1{
     font-size: 40px;
     text-transform: uppercase;
 }
-h2 {
-    text-transform: uppercase;
-}
+
 :focus-visible {
     background-color: darkorchid;
 }
