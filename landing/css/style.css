@@ -75,6 +75,7 @@ nav{
         color:#ffd037;
         font-size: 20px;
         display: inline-block;
+        text-decoration:underline;
        } 
        
     .container {
