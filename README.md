@@ -14,4 +14,6 @@
    Dark stars GIF: https://giphy.com/stickers/stars-galaxy-myedit-NzSUEgbTWB7TW
    <br>
    Pink glitter GIF: https://animatedglittergraphics-n-more.tumblr.com/post/654101045247688704
+   <br>
+   Fav Icon Code: https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website
 
