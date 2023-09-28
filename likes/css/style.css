@@ -73,7 +73,7 @@ a {
 button, a:hover {
     cursor:url(../css/lion.cur), auto;
   }
-  .iframe {
+  iframe {
     display: block;
     margin: auto;
   }
