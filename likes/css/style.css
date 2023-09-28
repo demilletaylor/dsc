@@ -27,7 +27,7 @@ img:hover {
     transition: all 0.5s;
 }
 
- h1{
+ h1, h2{
         text-align: center;
         text-transform: uppercase;
 }
@@ -73,6 +73,11 @@ a {
 button, a:hover {
     cursor:url(../css/lion.cur), auto;
   }
+  iframe {
+    display: block;
+    margin: auto;
+  }
+  
   
 
 
