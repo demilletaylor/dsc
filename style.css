@@ -21,15 +21,16 @@ html{
  button {
         font-family: 'Space Mono', sans-serif;
         font-size: x-large;
-        padding-inline: 30px;
         background-color:darkorchid;
+        padding: 10px 30px 10px 30px;
     }
    
 button, a:hover {
         cursor:url("css/lion.cur"), auto;
       }
-    a {
+    .button {
         color:#ffd037;
+        font-size: 40px;
        } 
 
        

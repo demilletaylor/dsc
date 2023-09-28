@@ -46,6 +46,11 @@ img:hover {
         text-decoration-style: none;
         padding: 20px 50px 20px 50px;
     }
+    .button {
+        color:#ffd037;
+        font-size: 20px;
+        display: inline-block;
+       } 
     
     nav{
         font-family: 'Space Grotesk';
